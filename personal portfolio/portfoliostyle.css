@@ -1,0 +1,93 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+min-height: 100vh;
+font-family: "baloo paaji 2" , cursive;
+background: linear-gradient(to right,#FEF2F6 50%,#FFB400 50%); 
+}
+
+#about {
+    
+    text-align: center;
+    color: black;
+    margin: 0px 0 20px 0;
+    padding: 50px;
+}
+#home{
+	text-align: center;
+	color: black;
+	margin: 0px 0 20px 0;
+	padding:50px;
+}
+#projects {
+  
+    text-align: center;
+    color: black;
+    margin: 0px 0 20px 0;
+    padding: 20px;
+}
+#contact{
+   
+    text-align: center;
+    color: black;
+    margin: 0px 0 20px 0;
+    padding: 50px;
+
+}
+.links{
+	display: flex;
+	list-style: none;
+}
+.links li{
+	margin-right: 24px;
+}
+.links li a {
+	text-decoration: none;
+	color: #999999;
+	letter-spacing: -0.5px;
+}
+.links li a:hover,
+.links li a:active{
+	color: #000;
+}
+.section{
+	padding-top:50px;
+}
+section{
+	height: 100vh;
+	
+	padding-left: 30px;
+	padding-top: 20px;
+	text-align: center;
+	color: #fff;
+	margin-top: 30px;
+}
+footer{
+	position: sticky;
+	top:100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding-left: 30px;
+	color:  black;
+	justify-content: center;
+	padding-bottom: 30px;
+	}
+	img{
+		float: left;
+
+	}
+	h1{
+		text-decoration: underline;
+		color:black ;
+		
+	}
+	h2{
+		color:navy ;
+	}
